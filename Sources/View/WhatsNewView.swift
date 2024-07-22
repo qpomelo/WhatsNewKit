@@ -218,7 +218,7 @@ private extension WhatsNewView {
                     // Invoke HapticFeedback, if available
                     self.whatsNew.primaryAction.hapticFeedback?()
                     // Dismiss
-                    self.presentationMode.wrappedValue.dismiss()
+                    // self.presentationMode.wrappedValue.dismiss()
                     // Invoke on dismiss, if available
                     self.whatsNew.primaryAction.onDismiss?()
                 }
