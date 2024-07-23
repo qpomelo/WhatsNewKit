@@ -7,7 +7,7 @@ extension WhatsNewView {
     /// The WhatsNewView FooterPadding ViewModifier
     struct FooterPadding {
         
-        #if os(iOS) || os(visionOS)
+        #if os(iOS) || os(visionOS) || os(tvOS)
         /// The Horizontal SizeClass
         @Environment(\.horizontalSizeClass)
         private var horizontalSizeClass
